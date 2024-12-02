@@ -1,4 +1,5 @@
 import http from 'http';
+
 const server = http.createServer((req, res) => {
   const { url } = req;
   console.log(url);
